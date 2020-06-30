@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap');
+
+body{
+    font-family: 'blinker', sans-serif;
+} ul li {
+list-style: none;
+margin: 0 20px;
+}
+
+ul{
+display: flex;
+justify-content: center;
+cursor: pointer;
+}
+
+ul li:hover{
+    color:sandybrown
+}
+header{
+    background-color: black;
+    color:white;
+    font-size: lem;
+    text-align: center;
+    padding: 50px;
+}
+
+h1{
+    font-size: 4em;
+
+}
+
+h2{
+    font-size: 2em;
+}
+/* class name starts with a dot */
+.cartoon {
+    text-align: center;
+padding: 50px 20px;
+color: white;
+}
+
+.cartoon img {
+    border: 3px solid white;
+}
+
+/* Id starts with #*/
+#tomandjerry{
+background-color: sandybrown;
+}
+#doremon
+{
+    background-color: green;
+}
+#pokemon{
+    background-color: red;
+}
+
